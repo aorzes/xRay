@@ -75,13 +75,12 @@
     if(okviric.frame.origin.x<25) {pp.origin.x = 25; okviric.frame = pp;}
     if(okviric.frame.origin.y<25) {pp.origin.y = 25; okviric.frame = pp;}
     
-    struct CGImage *slika = tijelo.image.CGImage;
-    
     CGPoint polozaj = CGPointMake((okviric.frame.origin.x-25)* kx, (okviric.frame.origin.y-25)* kx);
-    CGImageRef ref = CGImageCreateWithImageInRect(slika, CGRectMake(polozaj.x, polozaj.y, 100*kx, 100*kx));
+    CGImageRef ref = CGImageCreateWithImageInRect(tijelo.image.CGImage, CGRectMake(polozaj.x, polozaj.y, 100*kx, 100*kx));
     komad.image = [UIImage imageWithCGImage:ref];
-    okviric.image = komad.image;
-    
+    okviric.image = [UIImage imageWithCGImage:ref];
+    [okviric bringSubviewToFront:self.view];
+    CGImageRelease(ref);
    // NSLog(@"aa");
     
 }
