@@ -13,6 +13,10 @@
 		EC38B2121C6FCEDC00BD6E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC38B2101C6FCEDC00BD6E6D /* Main.storyboard */; };
 		EC38B2141C6FCEDC00BD6E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC38B2131C6FCEDC00BD6E6D /* Assets.xcassets */; };
 		EC38B2171C6FCEDC00BD6E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC38B2151C6FCEDC00BD6E6D /* LaunchScreen.storyboard */; };
+		EC38B21F1C6FCF0500BD6E6D /* tijelo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38B21E1C6FCF0500BD6E6D /* tijelo1.png */; };
+		EC38B2211C6FCF1200BD6E6D /* tijelo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38B2201C6FCF1200BD6E6D /* tijelo.png */; };
+		EC38B2231C6FCF7F00BD6E6D /* crniOkvir.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38B2221C6FCF7F00BD6E6D /* crniOkvir.png */; };
+		EC38B2251C6FDBE100BD6E6D /* xp.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38B2241C6FDBE100BD6E6D /* xp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		EC38B2131C6FCEDC00BD6E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC38B2161C6FCEDC00BD6E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC38B2181C6FCEDC00BD6E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC38B21E1C6FCF0500BD6E6D /* tijelo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tijelo1.png; path = xRay/tijelo1.png; sourceTree = "<group>"; };
+		EC38B2201C6FCF1200BD6E6D /* tijelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tijelo.png; path = xRay/tijelo.png; sourceTree = "<group>"; };
+		EC38B2221C6FCF7F00BD6E6D /* crniOkvir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crniOkvir.png; path = xRay/crniOkvir.png; sourceTree = "<group>"; };
+		EC38B2241C6FDBE100BD6E6D /* xp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,10 @@
 		EC38B1FB1C6FCEDC00BD6E6D = {
 			isa = PBXGroup;
 			children = (
+				EC38B2221C6FCF7F00BD6E6D /* crniOkvir.png */,
+				EC38B2241C6FDBE100BD6E6D /* xp.png */,
+				EC38B2201C6FCF1200BD6E6D /* tijelo.png */,
+				EC38B21E1C6FCF0500BD6E6D /* tijelo1.png */,
 				EC38B2061C6FCEDC00BD6E6D /* xRay */,
 				EC38B2051C6FCEDC00BD6E6D /* Products */,
 			);
@@ -138,6 +150,10 @@
 			files = (
 				EC38B2171C6FCEDC00BD6E6D /* LaunchScreen.storyboard in Resources */,
 				EC38B2141C6FCEDC00BD6E6D /* Assets.xcassets in Resources */,
+				EC38B21F1C6FCF0500BD6E6D /* tijelo1.png in Resources */,
+				EC38B2231C6FCF7F00BD6E6D /* crniOkvir.png in Resources */,
+				EC38B2251C6FDBE100BD6E6D /* xp.png in Resources */,
+				EC38B2211C6FCF1200BD6E6D /* tijelo.png in Resources */,
 				EC38B2121C6FCEDC00BD6E6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +316,7 @@
 				EC38B21D1C6FCEDC00BD6E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    UIImageView *okviric;
+    
+    UIImageView *tijelo;
+    UIImageView *tijelo1;
+    UIImageView *komad;
+    double kx;
+}
 
 @end
 
